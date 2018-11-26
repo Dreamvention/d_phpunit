@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./bootstrap.php"
+        colors="true">
+    <testsuites>
+        <testsuite name="catalog-tests">
+            <directory suffix="Test.php">../test/phpunit/catalog/</directory>
+        </testsuite>
+        <testsuite name="admin-tests">
+            <directory suffix="AdminTest.php">../test/phpunit/admin/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

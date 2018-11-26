@@ -1,0 +1,31 @@
+{
+    "name": "shopunity/shopunity-dev",
+    "description": "Shopunity Development",
+    "keywords": ["opencart", "phpunit"],
+    "license": "GPL-3.0",
+    "authors": [{
+        "name": "Dmitriy Zhuk",
+        "email": "dmitriyzhuk@gmail.com",
+        "homepage": "http://shopunity.net"
+    }],
+    "require": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "^7.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "consolidation/robo": "^1.1",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "scripts": {
+        "test-admin": "phpunit --testsuite admin-tests --colors=always",
+        "test-catalog": "phpunit --testsuite catalog-tests --colors=always",
+        "test": [
+            "@test-admin",
+            "@test-catalog"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Dotenv\\": ""
+        }
+    }
+}

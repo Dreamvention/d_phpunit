@@ -1,0 +1,35 @@
+{
+    "codename": "d_phpunit",
+    "version": "7.0.0",
+    "name": "PhpUnit library",
+    "description": "Add support for PhpUnit testing. This is phpUnit 7.0 and requires php 7.0 to work.",
+    "author": {
+        "name": "phpunit",
+        "url": "http://www.firephp.org/"
+    },
+    "opencart_version": [
+        "3.0.0.0",
+        "3.0.1.1",
+        "3.0.1.2",
+        "3.0.2.0"
+    ],
+    "type": "library",
+    "license": {
+        "type": "free",
+        "url": "https://shopunity.net/licenses/free"
+    },
+    "support": {
+        "email": "support@shopunity.com",
+        "url": "https://shopunity.net/"
+    },
+    "files": [
+        "system/library/d_shopunity/extension/d_phpunit.json"
+    ],
+    "dirs": [
+        "system/library/d_phpunit"
+    ],
+    "changelog": [{
+        "varsion": "1.0.0",
+        "change": "initial commit"
+    }]
+}
