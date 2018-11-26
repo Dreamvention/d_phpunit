@@ -2,7 +2,7 @@
     "codename": "d_phpunit",
     "version": "7.0.0",
     "name": "PhpUnit library",
-    "description": "Add support for PhpUnit testing. This is phpUnit 7.0 and requires php 7.0 to work.",
+    "description": "Adds support for PhpUnit testing. This is phpUnit 7.0 and requires php 7.0 to work.",
     "author": {
         "name": "phpunit",
         "url": "http://www.firephp.org/"
