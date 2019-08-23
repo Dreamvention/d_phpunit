@@ -1,6 +1,6 @@
 {
     "codename": "d_phpunit",
-    "version": "7.0.0",
+    "version": "7.0.1",
     "name": "PhpUnit library",
     "description": "Adds support for PhpUnit testing. This is phpUnit 7.0 and requires php 7.0 to work.",
     "author": {
@@ -23,8 +23,13 @@
     "dirs": [
         "system/library/d_phpunit"
     ],
-    "changelog": [{
+    "changelog": [
+        {
+        "varsion": "1.0.1",
+        "change": "sem var"
+    },
+        {
         "varsion": "1.0.0",
-        "change": "initial commit, sem var"
+        "change": "initial commit"
     }]
 }
