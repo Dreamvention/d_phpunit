@@ -1,18 +1,13 @@
 {
     "codename": "d_phpunit",
-    "version": "7.0.0",
+    "version": "7.0.1",
     "name": "PhpUnit library",
     "description": "Adds support for PhpUnit testing. This is phpUnit 7.0 and requires php 7.0 to work.",
     "author": {
         "name": "phpunit",
         "url": "http://www.firephp.org/"
     },
-    "opencart_version": [
-        "3.0.0.0",
-        "3.0.1.1",
-        "3.0.1.2",
-        "3.0.2.0"
-    ],
+    "opencart_version": "3-4",
     "type": "library",
     "license": {
         "type": "free",
@@ -28,8 +23,13 @@
     "dirs": [
         "system/library/d_phpunit"
     ],
-    "changelog": [{
-        "varsion": "1.0.0",
+    "changelog": [
+        {
+        "varsion": "1.0.2",
+        "change": "sem var"
+    },
+        {
+        "varsion": "1.0.1",
         "change": "initial commit"
     }]
 }
